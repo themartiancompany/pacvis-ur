@@ -84,6 +84,7 @@ _pkgdesc=(
   "Visualize pacman local database"
   "using Vis.js, inspired by pacgraph."
 )
+pkgdesc="${_pkgdesc[*]}"
 arch=(
   'any'
 )
