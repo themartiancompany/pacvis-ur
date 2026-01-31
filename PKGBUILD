@@ -1,10 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0
 
 #    ----------------------------------------------------------------------
-#    Copyright © 2016, 2017, 2018, 2019, 2020,
-#                2021, 2022, 2023, 2024, 2025
-#                Jiachen Yang
-#    Copyright © 2024, 2025
+#    Copyright © 2024, 2025, 2026
 #                Pellegrino Prevete
 #
 #    All rights reserved
