@@ -30,10 +30,10 @@
 #   Jiachen Yang
 #     <farseerfc@gmail.com>
 
-_os="$( \
+_os="$(
   uname \
     -o)"
-_evmfs_available="$( \
+_evmfs_available="$(
   command \
     -v \
     "evmfs" || \
@@ -60,14 +60,14 @@ elif [[ "${_git_http}" == "gitlab" ]]; then
   _archive_format="tar.gz"
 fi
 _py="python"
-_pyver="$( \
+_pyver="$(
   "${_py}" \
     -V | \
     awk \
       '{print $2}')"
 _pymajver="${_pyver%.*}"
 _pyminver="${_pymajver#*.}"
-_pynextver="${_pymajver%.*}.$(( \
+_pynextver="${_pymajver%.*}.$((
   ${_pyminver} + 1))"
 _pkg=pacvis
 pkgbase="${_pkg}"
@@ -76,7 +76,7 @@ pkgname=(
 )
 pkgver=0.2.7.1
 _commit="34f7494b623dfd8f494a7f644160d2316fba1c33"
-pkgrel=1
+pkgrel=2
 _pkgdesc=(
   "Visualize pacman local database"
   "using Vis.js, inspired by pacgraph."
